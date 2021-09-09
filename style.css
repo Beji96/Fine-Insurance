@@ -1,0 +1,537 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Img */
+img{
+    max-width: 100%;
+   
+    
+}
+.yellow{
+    max-width: 20%;
+    object-fit: cover;
+}
+.col-1-img{
+    max-width: 100%;
+    object-fit: scale-down;
+}
+.home,
+.car,
+.life,
+.business,
+.travel,
+.other {
+    padding: 1rem;
+  max-width: 20%;
+    border-radius: 50%;
+   
+}
+.home{
+    background-color: #b0f3ff;    
+}
+.car{
+    background-color: #f8d1ff;
+}
+.life{
+    background-color: #daffd3;
+}
+.business{
+    background-color: #fff4b4;
+}
+.travel{
+    background-color: #ffdad1;
+}
+.other{
+    background-color: #D3d3ff;
+}
+/* Typography */
+h1{
+    
+    font-weight: bold;
+}
+h2{
+    font-size: 2rem;
+}
+
+p{
+    color: #818697;
+}
+
+h3{
+   color: #2b7fff;
+}
+.tittle-paragraph{
+    font-size: 2.7rem;
+    padding-bottom: 1rem;
+}
+.header-paragraph{
+    font-size: 0.9rem;
+}
+/*logo */
+.logo{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    max-width: 100%;
+}
+
+/* Hearder */
+.header-section{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.btn-header{
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    display: inline-block;
+    border: none;
+    background-color: #26cfa2;
+    color: white;
+    padding: 1rem 1.3rem;
+}
+.btn-header:focus,
+.btn-header:hover{
+    background-color: #18aa83;
+}
+.plan{
+   
+    cursor: pointer;
+    border-radius: 0.7rem;
+    font-weight: bold;
+    display: inline-block;
+    border: none;
+    background-color: #26cfa2;
+    color:#fff;
+    padding: 1rem 1.3rem;
+}
+.plan:focus,
+.plan:hover{
+    background-color: #309e81;
+}
+.collor-btn{
+    background-color:#ffae8c ;
+}
+.collor-btn:hover,
+.collor-btn:focus{
+    background-color: #bd8f7c;
+}
+.blue-btn{
+    background-color: #2b7fff;
+}
+
+  
+/* Center Tittle */
+.center-tittle{
+    padding: 2rem 0.7rem;
+    text-align: center;
+    margin: 0 auto;
+}
+/* Flex-main */
+.flex-main{
+    padding-left:1rem ;
+    padding-right:1rem ;
+}
+.tittle-flex-main{
+    padding-bottom:1rem;
+    font-size: 1.5rem;
+}
+.sub-tittle-flex-main{
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+}
+.col-1{
+   
+    padding: 2rem;
+    display: flex;
+    
+}
+.flex-col-tittle-paragraph{
+    margin-left: 1rem;
+}
+.col-1-tittle{
+   
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+.col-1:hover,
+.col-1:focus{
+    cursor: pointer;
+    box-shadow:20px 20px 20px  #d1c8c8;
+    
+}
+/*insurance */
+.background-insurance{
+    background-color: #f8f9fa;
+    padding-bottom: 3rem;
+}
+.insurance-tittle{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.home-tittle{
+    font-size: 3rem;
+}
+.home-insurance{
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 1rem 2rem ;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: #fff;
+}
+.home-tittle-insurance{
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+.home-paragraph-insurance{
+    padding-bottom: 2rem;
+    color: #818697;
+}
+
+/* claims */
+.claims{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.blue,
+.pink,
+.green{
+   font-size: 2rem;
+    max-width: 20%;
+     max-height: 50%;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 90%;
+    padding: 2rem;
+ 
+
+}
+.blue{
+   background-color: #b0f3ff;
+}
+.pink{
+ background-color: #fbd1ff;
+}
+.green{
+   background-color: #daffd3;
+}
+.tittle-claims{
+    font-size: 1.5rem;
+}
+/*review */
+.review{
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+}
+.review-black{
+    padding: 2rem;
+    font-size: 1.4rem;
+    color: #000;
+}
+.review-tittle,
+.review-paragraph{
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+/*guarantee*/
+.guarantee{
+    padding: 2rem 1rem;
+    background: #fff;
+    text-align: center;
+    box-shadow:20px 20px 20px 20px  #d1c8c8;
+
+}
+.guarantee-tittle,
+.paragraph-tittle{
+    padding: 1rem 1rem;
+}
+/*Honest */
+.honest{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.tiitle-honest{
+    padding-top: 2rem;
+    color: #26cfa2;
+}
+.tiitle-honest,
+.price-honest{
+    text-align: center;
+    font-size: 2rem;
+}
+.price-honest{
+   
+     font-size: 2rem;
+    max-width: 20%;
+     max-height: 50%;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 90%;
+    padding: 2rem 0rem;
+}
+.basic{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    background: #fff;  
+    box-shadow:20px 20px 20px 20px  #d1c8c8;
+}
+.green-honest{
+    background-color: #daffd3;
+}
+.paragraph-left{
+    text-align: left;
+    padding: 0.6rem 1rem;
+}
+.basic:last-child{
+    margin: 0 auto;
+}
+/*Profesional*/
+.orange{
+  
+color: #ffae8c ;   
+}
+.gold{
+    margin: 1rem 0rem;
+    font-weight: bold;
+    color: #ebd080;
+     background-color:#fdeebe ;
+    max-width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.4rem 0rem;
+}
+.collor {
+    color: #fff;
+    background-color: #fdeebe;
+}
+/* Premium*/
+.blue-tittle{
+    color:#438aff ;
+}
+.blue-price{
+    background-color: #b0f3ff;
+}
+.paid{
+    color: #bbbdc6;
+    padding-bottom: 5rem;
+    font-size: 1.3rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+/* Questions */
+.tittle-questions{
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+.tittle-paragraph-question{
+   
+     color: #bbbdc6;
+     line-height: 1.3rem;
+    
+}
+.flex-questions{
+    padding: 0 1rem;
+}
+/* Footer */
+.footer{
+    padding: 0rem 2rem;
+    background: #f0f2f6;
+}
+.tittle-footer{
+    padding-top: 3rem;
+    padding-bottom:1rem ;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+.footer-link{
+    line-height: 1.4rem;
+  text-decoration: none;
+}
+.footer-link:focus,
+.footer-link:hover{
+    border-bottom: 3px solid #244ccf;
+}
+.copyright{
+    padding-top: 5rem ;
+    padding-bottom:5rem ;
+    text-align: center;
+}
+@media (min-width:770px) {
+    .header-section{
+        margin: 0 auto;
+      display: flex;
+      max-width: 90%;
+        
+    }
+    .header-insurange-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        justify-items: left;
+        max-width: 80%;
+    }
+    .flex-tittle{
+       padding-left:5rem ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+
+    }
+    .header-paragraph,
+    .tittle-paragraph{
+        text-align: left;
+    }
+    .flex-img{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /*Insurance */
+    .insurance-flex{
+        margin: 0 auto;
+        display: flex;
+        max-width: 90%;
+    }
+    .home-insurance{
+        cursor: pointer;
+        max-width: 30%;
+    }
+  .flex-honest{
+    max-width: 75%;
+      margin: 0 auto;
+      display: flex;
+  }
+  .basic{
+      padding: 3rem;
+  }
+  .profesional{
+    position: relative;
+    bottom: 3rem;
+  }
+ .honest-paragraph{
+      padding-bottom: 3rem;
+  }
+  /* Simplified claims */
+  .col-flex{
+      text-align: center;
+      margin: 0 auto;
+      display: flex;
+  }
+  .col-claims{
+      padding-top: 3rem;
+      text-align: center;
+      margin: 0 auto;
+  }
+  .review{
+      max-width: 90%;
+      
+      justify-content: space-around;
+      display: flex;
+      margin: 0 auto;
+  }
+  .flex-review-col{
+
+    max-width: 45%;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .img-review{
+      max-width: 2.5rem;
+      margin-left: 2rem;
+      
+  }
+.guarantee{
+ 
+    max-width: 70%;
+    margin: 0 auto;
+}
+.yellow{
+    max-width: 10%;
+}
+/* Flex Question */
+.flex-questions{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+.flex-column-1,
+.flex-column-2,
+.flex-column-3,
+.flex-column-4{
+    max-width: 40%;
+}
+/*footer */
+.footer{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.flex-footer{
+  
+    max-width: 40%;
+   
+}
+.copyright{
+    background: #f0f2f6;
+}
+/* Flex first main */
+
+.col-1{
+    padding-right: 3rem;
+    margin-top: 5rem;
+   
+
+}
+.col{
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.flex-aside{
+    display: flex;
+  
+}
+.capture-aside{
+    display: none;
+    border: 5px solid black;
+    max-width: 80%;
+    position: relative;
+    bottom: 10rem;
+    object-fit: cover;
+   
+}
+.blue,
+.pink,
+.green{
+   font-size: 2rem;
+    max-width: 60%;
+     max-height: 100%;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 90%;
+    padding: 2rem;
+ 
+
+}
+  
+}
+
+
